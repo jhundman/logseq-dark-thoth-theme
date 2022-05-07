@@ -76,7 +76,7 @@ html[data-theme="dark"],
     
 
   /* Accent Colors */
-  --primary-color: #7954fce6;
+  --primary-color: #7954fcf2;
     --ls-link-text-color: var(--primary-color);
     --ls-link-ref-text-color: var(--primary-color);
     --ls-head-text-color: var(--primary-color);
@@ -87,18 +87,18 @@ html[data-theme="dark"],
     --ls-block-bullet-active-color: var(--primary-color);
     --ls-block-bullet-border-color: var(--primary-color);
 
-  --secondary-color: #38ff70d9;
+  --secondary-color: #38ff70f2;
     --ls-link-text-hover-color: var(--secondary-color);
     --ls-tag-text-hover-color: var(--ls-link-text-hover-color);
     --ls-link-ref-text-hover-color: var(--ls-link-text-hover-color);
 
-  --tertiary-color: #ff3452d9;
+  --tertiary-color: #ff3452e6;
     --ls-tag-color: var(--tertiary-color);
     --ls-active-secondary-color: var(--tertiary-color);
     --ls-right-sidebar-code-bg-color: var(--tertiary-color);
     --ls-page-inline-code-bg-color: var(--tertiary-color);
 
-  --quaternary-color: #55ccffd9;
+  --quaternary-color: #55ccfff2;
     --ls-active-primary-color: var(--quaternary-color);
 
 
@@ -250,7 +250,7 @@ a.open-block-ref-link {
 a.tag[data-ref] {
   color: var(--ls-primary-background-color);
   background: var(--ls-tag-color);
-  opacity: .85;
+  opacity: 1;
   border-radius: .33rem .33rem;
   font-size: 0.75rem;
   font-weight: bold;
@@ -262,7 +262,7 @@ a.tag[data-ref] {
 }
 
 a.tag[data-ref]:hover {
-  opacity: .9;
+  opacity: 1;
   background-color: var(--ls-link-text-hover-color);
   padding: 0.2rem 0.2rem;
   border-radius: .33rem .33rem;
