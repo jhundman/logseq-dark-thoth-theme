@@ -3,6 +3,8 @@
  
  This was originally modified from the [logseq-allday-theme](https://github.com/tobealive/logseq-allday-theme)(Nord) which is great and you should also check out.
 
+ Currently I have not made any attempt to create/modify the light theme. Current implementation is dark theme only.
+
 ## Demo
 
 ## Install Instructions
