@@ -1,5 +1,5 @@
 # [logseq-dark-thoth-theme](https://github.com/jhundman/logseq-dark-thoth-theme)
- A dark theme for logseq with bright accent colors. Still a work in progress. 
+ A dark theme for [logseq](https://github.com/logseq) with bright accent colors. Still a work in progress. 
  
  This was originally modified from the [logseq-allday-theme](https://github.com/tobealive/logseq-allday-theme) which is great and you should also check out.
 
