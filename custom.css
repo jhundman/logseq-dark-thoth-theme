@@ -358,7 +358,6 @@ html[data-theme='dark'] .form-checkbox:checked {
   background-color: #9f9f9fcf;
 }
 html[data-theme='dark'] .form-checkbox:focus {
-  margin-top: .2em;
   border-color: var(--ls-primary-text-color);
 }
 html[data-theme='dark'] .form-checkbox:checked:focus {
