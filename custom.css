@@ -349,35 +349,39 @@ mark .page-reference .bracket {
   background-color: var(--ls-selection-background-color);
 }
 html[data-theme='dark'] .form-checkbox {
-  border: 1.2px solid rgba(246, 246, 246, 0.5);
+  border: .15rem solid var(--ls-primary-text-color);
+  opacity: .9;
+  margin-left: .2rem;
 }
 html[data-theme='dark'] .form-checkbox:checked {
   border-color: 1.2px solid rgba(246, 246, 246, 0.5);
   background-color: #9f9f9fcf;
 }
 html[data-theme='dark'] .form-checkbox:focus {
-  border-color: rgba(246, 246, 246, 0.5);
+  margin-top: .2em;
+  border-color: var(--ls-primary-text-color);
 }
 html[data-theme='dark'] .form-checkbox:checked:focus {
   background-color: inherit;
   border-color: rgba(246, 246, 246, 0.5);
 }
-.form-checkbox:hover {
+html[data-theme='dark'] .form-checkbox:hover {
   transform: scale(1.1);
+  border-color: var(--secondary-color);
 }
 /* Status Marker */
 .marker-switch {
   font-size: .75rem;
-  margin-right: 6px;
-  margin-left: 2px;
-  border-radius: 0;
+  margin-right: .3rem;
+  margin-left: .2rem;
+  border-radius: 0.1rem;
   font-weight: 500;
   display: inline-block;
   text-align: center;
-  height: 15px;
+  height: 1rem;
   opacity: 1;
-  padding: 0.1rem 0.25rem 0.1rem 0.25rem;
-  border: 1px solid;
+  padding: 0.1rem 0.2rem 0.1rem 0.2rem;
+  border: .1rem solid;
   line-height: 1;
   cursor: pointer;
 }
