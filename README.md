@@ -7,6 +7,8 @@
 
 ## Demo
 
+![Demo](demo.gif)
+
 ## Install Instructions
 
 To install simply download and replace the custom.css with the one found at root/logseq/custom.css in your installation of logseq. You can also copy the code and within logseq go to Settings -> General -> Edit custom.css 
